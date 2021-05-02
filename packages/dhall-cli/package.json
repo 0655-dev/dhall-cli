@@ -1,6 +1,6 @@
 {
 	"name": "dhall-cli",
-	"version": "0.1.0",
+	"version": "1.38.1",
 	"bin": {
 		"dhall": "./bin/dhall",
 		"dhall-1.38.1-x86_64-linux": "./bin/builds/dhall-1.38.1-x86_64-linux",
