@@ -1,11 +1,10 @@
 {
-	"name": "example-package",
+	"name": "example-package-2",
 	"private": true,
 	"devDependencies": {
-		"dhall-cli": "*",
 		"dhall-to-json-cli": "*"
 	},
 	"scripts": {
-		"test": "pnpx dhall --file ./src/test.dhall"
+		"test": "pnpx dhall-to-json --file ./src/test.dhall"
 	}
 }

@@ -1,0 +1,10 @@
+{
+	"name": "dhall-to-yaml-cli",
+	"version": "0.1.0",
+	"bin": {
+		"dhall-to-yaml": "./bin/dhall-to-yaml",
+		"dhall-to-yaml-1.7.6-x86_64-linux": "./bin/builds/dhall-to-yaml-1.7.6-x86_64-linux",
+		"dhall-to-yaml-1.7.6-x86_64-macos": "./bin/builds/dhall-to-yaml-1.7.6-x86_64-macos"
+	},
+	"license": "MIT"
+}
