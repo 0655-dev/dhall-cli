@@ -1,2 +1,2 @@
 # dhall-cli
-npm packages to wrap the dhall cli binaries
+npm packages to wrap several dhall cli binaries
