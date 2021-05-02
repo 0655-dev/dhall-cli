@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+#
+# turn this on to debug script
+# set -x
+
+#
+# abort on error
+# https://sipb.mit.edu/doc/safe-shell/
+set -euf -o pipefail
+
+DHALL_OSX="dhall-to-json-1.7.6-x86_64-macos"
+DHALL_LINUX="dhall-to-json-1.7.6-x86_64-linux"
+
+if [ "$(uname)" == "Darwin" ]; then
+	npx $DHALL_OSX $@
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+	npx $DHALL_LINUX $@
+else
+  exit 1
+fi

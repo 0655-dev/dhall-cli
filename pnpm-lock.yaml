@@ -1,9 +1,18 @@
 importers:
   packages/dhall-cli:
     specifiers: {}
+  packages/dhall-to-json-cli:
+    specifiers: {}
   packages/example-package:
     devDependencies:
+      dhall-to-json-cli: link:../dhall-to-json-cli
+    specifiers:
+      dhall-to-json-cli: '*'
+  packages/example-package-2:
+    devDependencies:
       dhall-cli: link:../dhall-cli
+      dhall-to-json-cli: link:../dhall-to-json-cli
     specifiers:
       dhall-cli: '*'
+      dhall-to-json-cli: '*'
 lockfileVersion: 5.2

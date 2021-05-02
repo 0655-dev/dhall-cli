@@ -1,0 +1,10 @@
+{
+	"name": "dhall-to-json-cli",
+	"version": "0.1.0",
+	"bin": {
+		"dhall-to-json": "./bin/dhall-to-json",
+		"dhall-to-json-1.7.6-x86_64-linux": "./bin/builds/dhall-to-json-1.7.6-x86_64-linux",
+		"dhall-to-json-1.7.6-x86_64-macos": "./bin/builds/dhall-to-json-1.7.6-x86_64-macos"
+	},
+	"license": "MIT"
+}
