@@ -1,0 +1,9 @@
+importers:
+  packages/dhall-cli:
+    specifiers: {}
+  packages/example-package:
+    devDependencies:
+      dhall-cli: link:../dhall-cli
+    specifiers:
+      dhall-cli: '*'
+lockfileVersion: 5.2

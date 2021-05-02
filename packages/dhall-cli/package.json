@@ -1,0 +1,10 @@
+{
+	"name": "dhall-cli",
+	"version": "0.1.0",
+	"bin": {
+		"dhall": "./bin/dhall",
+		"dhall-1.38.1-x86_64-linux": "./bin/builds/dhall-1.38.1-x86_64-linux",
+		"dhall-1.38.1-x86_64-macos": "./bin/builds/dhall-1.38.1-x86_64-macos"
+	},
+	"license": "MIT"
+}
