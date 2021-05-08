@@ -1,23 +1,39 @@
+lockfileVersion: 5.3
+
 importers:
+
   packages/dhall-cli:
     specifiers: {}
+
   packages/dhall-to-json-cli:
     specifiers: {}
+
   packages/dhall-to-yaml-cli:
     specifiers: {}
+
   packages/example-package:
-    devDependencies:
-      dhall-cli: link:../dhall-cli
     specifiers:
       dhall-cli: '*'
-  packages/example-package-2:
     devDependencies:
-      dhall-to-json-cli: link:../dhall-to-json-cli
+      dhall-cli: link:../dhall-cli
+
+  packages/example-package-2:
     specifiers:
       dhall-to-json-cli: '*'
-  packages/example-package-3:
     devDependencies:
-      dhall-to-yaml-cli: link:../dhall-to-yaml-cli
+      dhall-to-json-cli: link:../dhall-to-json-cli
+
+  packages/example-package-3:
     specifiers:
       dhall-to-yaml-cli: '*'
-lockfileVersion: 5.2
+    devDependencies:
+      dhall-to-yaml-cli: link:../dhall-to-yaml-cli
+
+  packages/example-package-4:
+    specifiers:
+      json-to-dhall-cli: '*'
+    devDependencies:
+      json-to-dhall-cli: link:../json-to-dhall-cli
+
+  packages/json-to-dhall-cli:
+    specifiers: {}
