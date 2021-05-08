@@ -1,6 +1,6 @@
 {
 	"name": "json-to-dhall-cli",
-	"version": "0.1.0",
+	"version": "1.7.6",
 	"bin": {
 		"json-to-dhall": "./bin/json-to-dhall",
 		"json-to-dhall-1.7.6-x86_64-linux": "./bin/builds/json-to-dhall-1.7.6-x86_64-linux",
