@@ -1,0 +1,8 @@
+
+# json-to-dhall-cli
+
+This package is a wrapper around the `json-to-dhall` CLI binaries for Linux and OSX (no Windows support yet).
+
+It allows you to install and invoke `json-to-dhall` via npm/npx. 
+
+The package versions are set to match release versions from https://github.com/dhall-lang/dhall-haskell
