@@ -1,11 +1,13 @@
 {
 	"name": "json-to-dhall-cli",
-	"version": "1.7.6",
+	"version": "0.1.0",
 	"bin": {
 		"json-to-dhall": "./bin/json-to-dhall",
 		"json-to-dhall-1.7.6-x86_64-linux": "./bin/builds/json-to-dhall-1.7.6-x86_64-linux",
 		"json-to-dhall-1.7.6-x86_64-macos": "./bin/builds/json-to-dhall-1.7.6-x86_64-macos"
 	},
+	"homepage": "https://github.com/0655-dev/dhall-cli",
+	"bugs": "https://github.com/0655-dev/dhall-cli/issues",
 	"repository": {
 		"type" : "git",
 		"url" : "https://github.com/0655-dev/dhall-cli.git",
